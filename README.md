@@ -23,7 +23,7 @@ This is a parser that I created using ANTLR4. This parses the translation unit f
 
 >	bin/tuparser bubblesort.cpp.001t.tu
 
-##How to develop things?
+##How to develop new things using Tuparser?
 
  - In the main.cpp code, you can implement your functions to navigate the generated AST.
  - In the thetuparser.g4 you can modify the grammar to insert new information or improve the generated AST.
